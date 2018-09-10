@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} !^willhough\.com$
+RewriteRule ^ http://willhough.com [L,R=301]
